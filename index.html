@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>english-malayalam-dictionary</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="tracking-in-expand"><span>പച്ച</span> മലയാളം പൊരുളേട്</h1>
+    
+        <div class="search-input">
+            <input type="text" autocomplete="off" id="search" spellcheck="false" placeholder="search here../ഇവിടെ തിരയുക.." onkeypress="enterKey(event)">
+            <button type="submit" id="submit-btn"><img src="./icons8-search.svg" alt="go"></button>
+        </div>
+       
+       <!--<div id="match-list"></div>--> 
+       <div id="match-list">
+       </div>
+       <div id="display">
+
+       </div>
+</div>
+
+<h3 class="footer">
+    <span>Pacha Malayalam Dictionary</span><br>
+    Developed by <a href="http://malayalamozhi.github.io">Malayalamozhi</a> 
+    
+</h3>
+
+<script src="./dict.js" ></script>
+
+</body>
+</html>
